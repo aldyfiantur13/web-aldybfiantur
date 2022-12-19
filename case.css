@@ -1,0 +1,113 @@
+body {
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+p {
+  font-size: 17px;
+  color: silver;
+}
+
+article {
+  text-indent: 25px;
+  text-align: center;
+}
+
+.gambar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-content: center;
+}
+
+figcaption {
+  color: grey;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lawngreen;
+}
+
+th {
+  background-color: lightgreen;
+  color: black;
+}
+
+.tabellorem {
+  text-align: center;
+}
+
+footer {
+  background-color: lawngreen;
+  text-align: justify;
+  border-style: groove;
+}
+
+h2 {
+  background-color: lawngreen;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+section {
+  background-color: lawngreen;
+}
+
+.primer {
+  background-color: pink;
+  color: blue;
+  border: 3px solid #d7d82d;
+  padding: 3em;
+}
+
+.inverse-primer {
+  background-color: blue;
+  color: pink;
+  border: 3px solid #d7d82d;
+  padding: 3em;
+}
+
+nav {
+  text-align: right;
+  background-color: blue;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: pink;
+}
+nav ul li a:hover {
+  background-color: pink;
+  color: blue;
+}
+
+/*# sourceMappingURL=tugas.css.map */

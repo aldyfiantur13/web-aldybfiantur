@@ -1,0 +1,109 @@
+$warnabg: lawngreen;
+$warna1: black;
+$warna2: silver;
+$warna3: lightgreen;
+$warna4: grey;
+$align: center;
+$warnaprimer: pink;
+$warnasekunder:blue;
+$border: 3px solid rgb(215, 216, 45);
+$ukuranpadding: 3em;
+
+body{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    ;
+}
+
+p{
+    font-size: 17px;
+    color: $warna2;
+}
+article{
+    text-indent: 25px;
+    text-align: justify;
+}
+.gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+figcaption{
+    color: $warna4;
+    text-align: $align;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: $warnabg;}
+th{
+    background-color: $warna3;
+    color: $warna1;
+}
+.tabellorem{
+    text-align: $align;
+}
+footer{
+    background-color: $warnabg;
+    text-align: justify;
+    border-style: groove;
+}
+h2{
+    background-color: $warnabg;
+
+}
+
+h3{
+    color:$warna1;
+
+}
+h4{
+    font-size: 20px;
+}
+section{
+    background-color: $warnabg;
+}
+.primer{
+    background-color: $warnaprimer;
+    color: $warnasekunder;
+    border: $border;
+    padding: $ukuranpadding;
+}
+
+.inverse-primer{
+    background-color: $warnasekunder;
+    color: $warnaprimer;
+    border: $border;
+    padding: $ukuranpadding;
+}
+
+nav{
+    text-align: right;
+    background-color: $warnasekunder;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+                color: $warnaprimer;
+            }
+            a:hover{
+                background-color: $warnaprimer;
+                color: $warnasekunder;
+            }
+        }
+    }
+}
